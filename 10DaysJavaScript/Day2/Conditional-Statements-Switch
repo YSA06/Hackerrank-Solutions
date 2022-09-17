@@ -1,0 +1,20 @@
+function getLetter(s) {
+    let letter;
+   switch(s.charAt(0)){
+       case "a"||"e"||"i"||"o"||"u":
+       return letter="A";
+       break; 
+       
+       case "b"||"c"||"d"||"f"||"g":
+       return  letter="B";
+       
+       case "h"||"j"||"k"||"l"||"m":
+       return  letter="C";
+       
+       default:
+       return  letter="D";
+           
+   }
+   
+    return letter;
+}
