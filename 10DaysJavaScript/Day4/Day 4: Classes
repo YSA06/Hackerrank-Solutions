@@ -1,0 +1,11 @@
+class Polygon  {
+  constructor(sides) { 
+      this.sides=sides;
+  }
+  
+  perimeter(){
+      let sum=0;
+      this.sides.forEach((s)=>{
+            sum += s;
+  })
+  return sum;
